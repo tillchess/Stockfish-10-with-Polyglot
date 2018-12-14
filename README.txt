@@ -21,12 +21,12 @@ BookDepth: 0-255 moves
 
 BestBookMove : true uses the best book move, otherwise when false a random book move!
 
-
+OwnBook:    this means that the engine has its own book which is accessed by the engine itself.
+			if this is set, the engine takes care of the opening book and the GUI will never
+			execute a move out of its book for the engine. If this is set to false by the GUI,
+			the engine should not access its own book.
 
 -------------------------------
-
-Hint: The Chess GUI should have an option to turn their opening book off . my Chess GUI has this feature. 
-
 
 
 Source code of Brainfish: https://zipproth.de/Brainfish/BrainFish_181110_source.zip
