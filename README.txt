@@ -37,7 +37,7 @@ Soure code of Stockfish 10 from: https://stockfish.s3.amazonaws.com/stockfish-10
 
 Credits:
 
-Massimiliano Gio also did this on his own
+Massimiliano Goi also did this on his own
 
 https://chess.massimilianogoi.com/download/stockfish/
 
