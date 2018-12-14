@@ -219,7 +219,7 @@ void MainThread::search() {
   {  
 	  Move bookMove = MOVE_NONE;
 
-      if (!Limits.infinite && !Limits.mate)
+      if (Options["OwnBook"] &&!Limits.infinite && !Limits.mate)
           bookMove = polybook.probe(rootPos);
 
       if (bookMove && std::count(rootMoves.begin(), rootMoves.end(), bookMove))

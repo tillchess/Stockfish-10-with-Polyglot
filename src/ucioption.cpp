@@ -84,6 +84,7 @@ void init(OptionsMap& o) {
   o["BookFile"]              << Option("<empty>", on_book_file);
   o["BestBookMove"]          << Option(true, on_best_book_move);
   o["BookDepth"]             << Option(255, 1, 255, on_book_depth);
+  o["OwnBook"]               << Option(false);
 }
 
 
